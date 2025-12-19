@@ -1,0 +1,9 @@
+✅ Migration Definition
+
+Migration refers to the process of managing and applying changes to a database structure 
+(like creating tables, updating columns, or modifying relationships) using version-controlled
+ code instead of doing it manually.
+
+ ✅ Seeder (in SQL / Sequelize / ORM)
+
+A seeder is a script that inserts initial, default, or test data into your database tables automatically.

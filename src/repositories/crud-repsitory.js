@@ -18,6 +18,9 @@ class Crudrepository{
                     id:id
                 }
             });
+            if(!result){
+                throw new AppError('Not able to find the resource',StatusCodes.NOT_FOUND);
+            }
             return result;
         } catch (error) {
             Logger.error("Something went wrong in the crud repository :destroy");
