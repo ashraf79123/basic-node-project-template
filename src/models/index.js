@@ -8,5 +8,6 @@ db.sequelize = sequelize;
 
 // Import models here
 db.Airplane = require('./airplane')(sequelize, DataTypes);
+db.City = require('./city')(sequelize, DataTypes);
 
 module.exports = db;

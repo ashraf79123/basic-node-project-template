@@ -2,7 +2,8 @@ module.exports = (sequelize, DataTypes) => {
     const Airplane = sequelize.define('Airplane', {
         ModelNumber: {
             type: DataTypes.STRING,
-            allowNull: false
+            allowNull: false,
+            field: 'modelNumber'
         },
         capacity: {
             type: DataTypes.INTEGER,

@@ -3,6 +3,7 @@ const {statusCodes}=require('../utils/status-codes');
 const {SuccessResponse,ErrorResponse}=require('../utils/common');
 async function createAirplane(req,res){
  try{
+  console.log(req)
   const airplane=await AirplaneServices.createAirplane({
     ModelNumber:req.body.ModelNumber,
     capacity:req.body.capacity
